@@ -1,2 +1,12 @@
-package com.example.provider.api.core.queries;public class GetBookByIdQuery {
+package com.example.provider.api.core.queries;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+public class GetBookByIdQuery {
+    private String bookId;
 }

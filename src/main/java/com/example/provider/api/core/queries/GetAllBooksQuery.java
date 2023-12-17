@@ -1,2 +1,5 @@
-package com.example.provider.api.core.queries;public class GetAllBooksQuery {
+package com.example.provider.api.core.queries;
+
+
+public class GetAllBooksQuery {
 }
